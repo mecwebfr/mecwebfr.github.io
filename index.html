@@ -5,14 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MecWeb.fr</title>
+    <title>mecweb.fr</title>
 
     <style>
-        body {
-            background-image: url("IMG_5141.jpg") no-repeat center center fixed;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
+        body,
+        html {
+            height: 100%;
+        }
+
+        .bg {
+            /* The image used */
+            background-image: url("IMG_5141.jpg");
+
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
             background-size: cover;
         }
     </style>
@@ -21,7 +31,7 @@
 
 <body>
     <!-- <h1>MecWeb.fr</h1> -->
-
+    <div class="bg"></div>
 </body>
 
 </html>
